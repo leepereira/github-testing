@@ -1,6 +1,6 @@
 name: first workflow
 
-on: repository_dispatch
+on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-latest
